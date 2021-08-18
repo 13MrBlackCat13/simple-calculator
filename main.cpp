@@ -4,11 +4,13 @@ using namespace std;
 int main() {
     int a;
     int b;
+    int sum;
     //int c;
     cout << "Введите число которые вы хотите сложить. \n";
     cin >> a;
     cout << " Введите другое число которое вы хотите сложить. \n";
     cin >> b;
-    cout << a + b;
+    sum = a + b;
+    cout << "Сумма: " << sum << endl;
     return 0;
 }
